@@ -1,1 +1,80 @@
-/* Write your CSS code here */
+.blog-item-detail-container {
+    width: 90%;
+    font-family: "Roboto";
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.blog-title {
+    color: #000000;
+    font-size: 18px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.blog-author-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.blog-avatar {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.blog-author {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.blog-image {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.blog-content {
+    font-size: 14px;
+    color: #2f4f4f;
+}
+
+@media all and (min-width: 576px) {
+    .blog-title {
+        font-size: 22px;
+    }
+
+    .blog-avatar {
+        width: 35px;
+        height: 35px;
+    }
+
+    .blog-author {
+        font-size: 18px;
+    }
+
+    .blog-content {
+        font-size: 18px;
+    }
+}
+
+@media all and (min-width: 768px) {
+    .blog-title {
+        font-size: 28px;
+    }
+
+    .blog-avatar {
+        width: 40px;
+        height: 40px;
+    }
+
+    .blog-author {
+        font-size: 22px;
+    }
+
+    .blog-content {
+        font-size: 22px;
+    }
+}
